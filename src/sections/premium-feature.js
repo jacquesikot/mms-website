@@ -108,7 +108,7 @@ const styles = {
     },
   },
   illustration: {
-    mb: [-6, null, null, -8, 0],
+    mb: [0, null, null, 0, 0],
   },
   accordionGroup: {
     m: [null, null, null, '0 auto', 'unset'],
