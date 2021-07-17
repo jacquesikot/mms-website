@@ -39,7 +39,7 @@ const data = [
 
 const PremiumFeature = () => {
   return (
-    <section id="features" sx={styles.section}>
+    <section id="faq" sx={styles.section}>
       <Container>
         <Grid sx={styles.grid}>
           <Box as="figure" sx={styles.illustration}>
