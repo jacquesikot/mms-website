@@ -1,13 +1,13 @@
 import { Heading, Box, Container } from 'theme-ui';
 import React from 'react';
-import { Link } from 'components/link';
+import { ExtLink } from 'components/link';
 
 const CtaOne = () => {
   return (
     <Box as="section" sx={styles.ctaBox}>
       <Container>
         <Heading as="h3">{'Ready to learn with \n Mac Music School'}</Heading>
-        <Link
+        <ExtLink
           path="https://mms-admin.vercel.app/register"
           label="Start Learning Today"
           sx={styles.ctaBox.button}

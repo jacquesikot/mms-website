@@ -1,6 +1,6 @@
 import { Box, Text, Flex, Image, Container } from 'theme-ui';
 import React from 'react';
-import { Link } from 'components/link';
+import { Link, ExtLink } from 'components/link';
 import BlockTitle from 'components/block-title';
 import ctaTwoImage from 'assets/cta-img-1.png';
 
@@ -30,7 +30,11 @@ const CtaTwo = () => {
                   'Get your tests delivered at let home collect sample from the victory of thLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien, Lorem ipsum dolor sit amet, consectetur adipiscing.'
                 }
               </Text>
-              <Link path="#" label="Get Started" variant="buttons.primary" />
+              <ExtLink
+                path="https://mms-admin.vercel.app/register"
+                label="Get Started"
+                variant="buttons.primary"
+              />
             </Box>
           </Box>
         </Flex>

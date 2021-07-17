@@ -15,3 +15,11 @@ export function Link({ path, label, children, ...rest }) {
     </NextLink>
   );
 }
+
+export function ExtLink({ path, label, ...rest }) {
+  return (
+    <A href={path} {...rest}>
+      {label}
+    </A>
+  );
+}

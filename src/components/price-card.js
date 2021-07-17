@@ -2,6 +2,7 @@ import { Box, Card, Text, Flex, Heading, Button } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import React from 'react';
 import PricingList from './pricing-list';
+import { ExtLink } from '../components/link';
 
 export default function PriceCard({
   data: {
@@ -56,7 +57,11 @@ export default function PriceCard({
           }}
         >
           <Button variant="buttons.primary" sx={styles.button}>
-            {buttonText}
+            <ExtLink
+              sx={styles.linkButton}
+              path={'https://mms-admin.vercel.app/register'}
+              label="Start Now!"
+            />
           </Button>
         </Box>
       </Box>

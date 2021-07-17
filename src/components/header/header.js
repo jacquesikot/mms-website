@@ -2,7 +2,7 @@
 import { jsx, Container, Flex, Button, Box } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { IoIosUnlock } from 'react-icons/io';
-import { NavLink, Link } from 'components/link';
+import { NavLink, Link, ExtLink } from 'components/link';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import Logo from 'components/logo';
 
@@ -34,7 +34,7 @@ export default function Header({ className }) {
             ))}
           </Flex>
 
-          <Link
+          <ExtLink
             path="https://mms-admin.vercel.app/register"
             ml={2}
             label="Get Started"

@@ -1,6 +1,6 @@
 import { Box, Flex, Text, Grid, Heading, Container } from 'theme-ui';
 import React from 'react';
-import { Link } from 'components/link';
+import { Link, ExtLink } from 'components/link';
 import BlockTitle from 'components/block-title';
 import Image from 'next/image';
 
@@ -29,7 +29,11 @@ const CtaThree = () => {
                     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien, Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
                   }
                 </Text>
-                <Link path="#" label="Get Started" variant="buttons.primary" />
+                <ExtLink
+                  path="https://mms-admin.vercel.app/register"
+                  label="Get Started"
+                  variant="buttons.primary"
+                />
               </Box>
             </Box>
           </Box>

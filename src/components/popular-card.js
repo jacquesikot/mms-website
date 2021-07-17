@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { keyframes } from '@emotion/core';
 import { jsx, Box, Heading, Text, Button, Image } from 'theme-ui';
-import { Link } from 'components/link';
+import { Link, ExtLink } from 'components/link';
 import VideoBtn from 'components/video-btn';
 import { FaStar, FaAngleDown, FaAngleUp, FaCheckCircle } from 'react-icons/fa';
 import eyeIcon from 'assets/eye-2.svg';
@@ -24,7 +24,10 @@ const PopularCard = (props) => {
           <Box sx={styles.popularCard.content}>
             <Box sx={styles.popularCard.meta}></Box>
             <Heading as="h3">
-              <Link path="/" label={props.title} />
+              <ExtLink
+                path="https://mms-admin.vercel.app/register"
+                label={props.title}
+              />
             </Heading>
             <Text as="p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
