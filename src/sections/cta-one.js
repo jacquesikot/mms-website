@@ -6,9 +6,9 @@ const CtaOne = () => {
   return (
     <Box as="section" sx={styles.ctaBox}>
       <Container>
-        <Heading as="h3">{'Ready to learn design \n with Nia Matos'}</Heading>
+        <Heading as="h3">{'Ready to learn with \n Mac Music School'}</Heading>
         <Link
-          path="#"
+          path="https://mms-admin.vercel.app/register"
           label="Start Learning Today"
           sx={styles.ctaBox.button}
           variant="buttons.primary"

@@ -7,20 +7,20 @@ import ArrowEven from 'assets/arrow-even.png';
 
 const workflowData = [
   {
-    title: 'Set disbursement Instructions',
-    text: 'Get your blood tests delivered at home collect a sample from the your blood tests.',
+    title: 'Lorem ipsum dolor sit account',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien.',
   },
   {
-    title: 'Assembly retrieves funds from your account',
-    text: 'Get your blood tests delivered at home collect a sample from the your blood tests.',
+    title: 'Lorem ipsum dolor sit account',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien.',
   },
   {
-    title: 'Assembly initiates disbursement',
-    text: 'Get your blood tests delivered at home collect a sample from the your blood tests.',
+    title: 'Lorem ipsum dolor sit account',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien.',
   },
   {
-    title: 'Customer receives funds payment',
-    text: 'Get your blood tests delivered at home collect a sample from the your blood tests.',
+    title: 'Lorem ipsum dolor sit account',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien.',
   },
 ];
 

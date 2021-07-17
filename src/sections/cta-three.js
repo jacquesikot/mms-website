@@ -2,6 +2,12 @@ import { Box, Flex, Text, Grid, Heading, Container } from 'theme-ui';
 import React from 'react';
 import { Link } from 'components/link';
 import BlockTitle from 'components/block-title';
+import Image from 'next/image';
+
+import GuitarImage from 'assets/guitar.png';
+import PianoImage from 'assets/piano.png';
+import ViolinImage from 'assets/violin.png';
+import SingingImage from 'assets/singing.png';
 
 const CtaThree = () => {
   return (
@@ -15,50 +21,42 @@ const CtaThree = () => {
                   sx={styles.ctaThree.blockTitle}
                   tagline="Why choose us"
                   heading={
-                    'Smart Jackpots \n that you may love this \n anytime & anywhere'
+                    'Lorem ipsum dolor \n amet, consectetur  \n adipiscing elit'
                   }
                 />
                 <Text as="p">
                   {
-                    'Get your tests delivered at let home collect sample \n from the victory of the managments that supplies \n best design system guidelines ever. Get your tests \n delivered at let home collect sample.'
+                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien, Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
                   }
                 </Text>
-                <Link
-                  path="#"
-                  label="Explore details"
-                  variant="buttons.primary"
-                />
+                <Link path="#" label="Get Started" variant="buttons.primary" />
               </Box>
             </Box>
           </Box>
           <Box sx={styles.ctaThree.colOne}>
             <Grid sx={styles.ctaThree.grid}>
               <Box sx={styles.ctaThree.box}>
-                <Heading as="h3" sx={styles.ctaThree.color1}>
-                  80K+
-                </Heading>
-                <Text as="p">{'We have more than \n students'}</Text>
-              </Box>
-              <Box sx={styles.ctaThree.box}>
-                <Heading sx={styles.ctaThree.color2} as="h3">
-                  150+
-                </Heading>
+                <Image src={GuitarImage} width={100} height={100} />
                 <Text as="p">
-                  {'Free online tutorials \n videos avaialble'}
+                  {'Lorem ipsum dolor sit \n amet, consectetur'}
                 </Text>
               </Box>
               <Box sx={styles.ctaThree.box}>
-                <Heading sx={styles.ctaThree.color3} as="h3">
-                  90+
-                </Heading>
-                <Text as="p">{'Daily updated blog \n post maintain'}</Text>
+                <Image src={PianoImage} width={100} height={100} />
+                <Text as="p">
+                  {'Lorem ipsum dolor sit \n amet, consectetur'}
+                </Text>
               </Box>
               <Box sx={styles.ctaThree.box}>
-                <Heading sx={styles.ctaThree.color4} as="h3">
-                  & 3M
-                </Heading>
+                <Image src={ViolinImage} width={100} height={100} />
                 <Text as="p">
-                  {'Job posted everydays \n with  qualification'}
+                  {'Lorem ipsum dolor sit \n amet, consectetur'}
+                </Text>
+              </Box>
+              <Box sx={styles.ctaThree.box}>
+                <Image src={SingingImage} width={100} height={100} />
+                <Text as="p">
+                  {'Lorem ipsum dolor sit \n amet, consectetur'}
                 </Text>
               </Box>
             </Grid>
@@ -154,8 +152,8 @@ const styles = {
       borderRadius: '10px',
       textAlign: 'center',
       position: 'relative',
-      paddingTop: '95.5px',
-      paddingBottom: '95.5px',
+      paddingTop: '70px',
+      paddingBottom: '70px',
       '&:nth-of-type(1)': {
         top: '70px',
       },

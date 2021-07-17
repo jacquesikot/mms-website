@@ -15,6 +15,7 @@ import Pricing from 'sections/pricing';
 import PopularCourse from 'sections/popular-course';
 import CtaThree from 'sections/cta-three';
 import FavoriteCourse from 'sections/favorite-course';
+import PremiumFeature from 'sections/premium-feature';
 
 export default function IndexPage() {
   return (
@@ -32,7 +33,7 @@ export default function IndexPage() {
             <PopularCourse />
             <WorkFlow />
             <Pricing />
-            <FAQ />
+            <PremiumFeature />
             <CtaOne />
             <Modal />
           </Layout>

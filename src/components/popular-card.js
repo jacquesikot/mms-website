@@ -22,28 +22,13 @@ const PopularCard = (props) => {
       <Box sx={styles.popularCard.main}>
         <Box sx={styles.popularCard.top}>
           <Box sx={styles.popularCard.content}>
-            <Box sx={styles.popularCard.meta}>
-              <Box
-                sx={styles.popularCard.stars}
-                className={`starCount-${props.starCount}`}
-              >
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <Text as="span">{props.reviewCount}</Text>
-              </Box>
-              <Box sx={styles.popularCard.watch}>
-                <Image src={eyeIcon} alt="" /> {props.watchCount}
-              </Box>
-            </Box>
+            <Box sx={styles.popularCard.meta}></Box>
             <Heading as="h3">
               <Link path="/" label={props.title} />
             </Heading>
             <Text as="p">
-              Get your tutorials delivered at let home collect sample from the
-              victory of the managments.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              mi sapien Lorem ipsum dolor
             </Text>
           </Box>
           <Box sx={styles.popularCard.buttonBox}>
@@ -224,9 +209,10 @@ const styles = {
         },
       },
       '&.starCount-1': {
-        'svg:nth-of-type(2), svg:nth-of-type(3), svg:nth-of-type(4), svg:last-of-type': {
-          color: '#F0ECDF',
-        },
+        'svg:nth-of-type(2), svg:nth-of-type(3), svg:nth-of-type(4), svg:last-of-type':
+          {
+            color: '#F0ECDF',
+          },
       },
       '&.starCount-0': {
         svg: {

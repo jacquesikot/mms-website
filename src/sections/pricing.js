@@ -6,68 +6,68 @@ import PriceCard from '../components/price-card';
 
 const pricingMonthlyData = [
   {
-    name: 'Free Plan',
-    description: 'For Small teams or office',
-    buttonText: 'Start free trail',
+    name: 'Pay Monthly',
+    description: 'For new customers',
+    buttonText: 'Start Now',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Free acess for all kind of exercise corrections with downloads.',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
       {
         icon: <IoIosCloseCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: false,
       },
       {
         icon: <IoIosCloseCircle />,
-        text: 'Download and print courses and exercises in PDF',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: false,
       },
     ],
   },
   {
     header: 'Recommended',
-    name: 'Premium',
-    description: 'For startup enterprise',
-    priceWithUnit: '$49.99/',
-    pricePeriod: 'mo',
+    name: 'Pay Once',
+    description: 'For Serious Learners',
+    priceWithUnit: 'N25,000',
+    pricePeriod: '',
     buttonText: 'Subscribe Now',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Free acess for all kind of exercise corrections with downloads.',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Download and print courses and exercises in PDF',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
     ],
@@ -76,68 +76,68 @@ const pricingMonthlyData = [
 
 const pricingYearlyData = [
   {
-    name: 'Free Plan',
-    description: 'For Small teams or office',
-    buttonText: 'Start free trail',
+    name: 'Pay Monthly',
+    description: 'For new customers',
+    buttonText: 'Start Now',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Free acess for all kind of exercise corrections with downloads.',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
       {
         icon: <IoIosCloseCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: false,
       },
       {
         icon: <IoIosCloseCircle />,
-        text: 'Download and print courses and exercises in PDF',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: false,
       },
     ],
   },
   {
     header: 'Recommended',
-    name: 'Premium',
-    description: 'For startup enterprise',
-    priceWithUnit: '$99.99/',
-    pricePeriod: 'yr',
-    buttonText: 'Subscribe Now',
+    name: 'Pay Once',
+    description: 'For Serious Learners',
+    priceWithUnit: 'N25,000',
+    pricePeriod: '',
+    buttonText: 'Start Now',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Free acess for all kind of exercise corrections with downloads.',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Download and print courses and exercises in PDF',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
         isAvailable: true,
       },
     ],
@@ -154,7 +154,7 @@ const Pricing = () => {
           tagline="Pricing Plan"
           heading="Choose your pricing policy"
         />
-        <Box sx={styles.pricing.btnWrap}>
+        {/* <Box sx={styles.pricing.btnWrap}>
           <Box as="ul" sx={styles.pricing.btnUl}>
             <Box
               as="li"
@@ -176,10 +176,10 @@ const Pricing = () => {
                 setPlan(true);
               }}
             >
-              Annual Plan
+              One Time Pay
             </Box>
           </Box>
-        </Box>
+        </Box> */}
 
         <Grid sx={styles.pricing.wrapper}>
           {plan === true
@@ -224,6 +224,7 @@ const styles = {
     },
     blockTitle: {
       textAlign: 'center',
+      mb: '40px',
     },
     btnWrap: {
       display: 'flex',
