@@ -14,7 +14,7 @@ export default function Logo() {
         cursor: 'pointer',
       }}
     >
-      <Image src={LogoDark} alt="startup landing logo" />
+      <Image src={LogoDark} alt="startup landing logo" width={100} />
     </Link>
   );
 }
