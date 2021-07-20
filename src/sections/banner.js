@@ -38,7 +38,7 @@ const Banner = () => {
                 Trused by over 500 students
               </Box>
               <Heading as="h3">
-                Welcome to <br />
+                Summer 2021 with <br />
                 Mac Music School
               </Heading>
               <Text as="p">

@@ -20,14 +20,14 @@ const CtaThree = () => {
                 <BlockTitle
                   sx={styles.ctaThree.blockTitle}
                   tagline="Why choose us"
-                  heading={
-                    'Lorem ipsum dolor \n amet, consectetur  \n adipiscing elit'
-                  }
+                  heading={'Our Vision & Mission'}
                 />
                 <Text as="p">
-                  {
-                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien, Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                  }
+                  {`Our Vision is to be the Nation's first all-in-one Music Solution Provider Firm having partnerships with leading musical Networks accross the globe.`}
+                </Text>
+
+                <Text as="p">
+                  {`Our Mission is to change the face value of music and its intricate parts by amplifying the educative and intellectual dimension of music.`}
                 </Text>
                 <ExtLink
                   path="https://mms-admin.vercel.app/register"
@@ -41,27 +41,21 @@ const CtaThree = () => {
             <Grid sx={styles.ctaThree.grid}>
               <Box sx={styles.ctaThree.box}>
                 <Image src={GuitarImage} width={100} height={100} />
-                <Text as="p">
-                  {'Lorem ipsum dolor sit \n amet, consectetur'}
-                </Text>
+                <Text as="p">{'Candor \n Openness & Honesty'}</Text>
               </Box>
               <Box sx={styles.ctaThree.box}>
                 <Image src={PianoImage} width={100} height={100} />
-                <Text as="p">
-                  {'Lorem ipsum dolor sit \n amet, consectetur'}
-                </Text>
+                <Text as="p">{'Reliable \n Trustworthy & Consistent'}</Text>
               </Box>
               <Box sx={styles.ctaThree.box}>
                 <Image src={ViolinImage} width={100} height={100} />
                 <Text as="p">
-                  {'Lorem ipsum dolor sit \n amet, consectetur'}
+                  {'Excellence & Service \n High quality and ministration'}
                 </Text>
               </Box>
               <Box sx={styles.ctaThree.box}>
                 <Image src={SingingImage} width={100} height={100} />
-                <Text as="p">
-                  {'Lorem ipsum dolor sit \n amet, consectetur'}
-                </Text>
+                <Text as="p">{'Tenacity \n Persistent and Determined'}</Text>
               </Box>
             </Grid>
           </Box>

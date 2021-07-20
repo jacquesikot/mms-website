@@ -21,13 +21,11 @@ const CtaTwo = () => {
               <BlockTitle
                 sx={styles.ctaTwo.blockTitle}
                 tagline="Music school of the future"
-                heading={
-                  'Lorem ipsum dolor \n amet, consectetur \n adipiscing elit'
-                }
+                heading={`Nigeria's leading \n music education \n solution providers`}
               />
               <Text as="p" sx={styles.ctaTwo.text}>
                 {
-                  'Get your tests delivered at let home collect sample from the victory of thLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien, Lorem ipsum dolor sit amet, consectetur adipiscing.'
+                  'Founded in 2013 by a group of music reformists, MAC center has so far been a pacesetter and light bearer in the study and trainig of music as a discipline and as a lucrative means of livelihood in Nigeria and Africa as a whole.'
                 }
               </Text>
               <ExtLink

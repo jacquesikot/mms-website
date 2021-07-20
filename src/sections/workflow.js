@@ -7,16 +7,16 @@ import ArrowEven from 'assets/arrow-even.png';
 
 const workflowData = [
   {
-    title: 'Lorem ipsum dolor sit account',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien.',
+    title: 'Pattern Recognition',
+    text: `We commence training with the observation of the Childs' ability to recognise Colors, Shapes, Alphabets, Numbers, Similarities and processes.`,
   },
   {
-    title: 'Lorem ipsum dolor sit account',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien.',
+    title: 'Mind Connection',
+    text: `At this stage,  consistent interconnection is created between SOUNDS and the patterns learnt, which are numbers, Solfa's and alphabets.`,
   },
   {
-    title: 'Lorem ipsum dolor sit account',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien.',
+    title: 'Sound Affirmation',
+    text: 'At this stage, we employ the melody tutelage style, wherethe student learns with, popular tunes.',
   },
   {
     title: 'Lorem ipsum dolor sit account',
@@ -30,7 +30,7 @@ const WorkFlow = () => {
       <Container>
         <BlockTitle
           sx={styles.workflow.blockTitle}
-          tagline="Whats the function"
+          tagline="Learning Techniques"
           heading="Let’s see how it works"
         />
 
