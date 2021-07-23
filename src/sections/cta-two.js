@@ -91,7 +91,7 @@ const styles = {
       h3: {
         fontSize: ['24px', null, null, '36px', null, '48px'],
         lineHeight: 1.15,
-        letterSpacing: ['-0.5px', null, null, '-1.5px'],
+        letterSpacing: ['0', null, null, '0'],
         whiteSpace: ['normal', null, null, null, null, 'pre-line'],
       },
     },

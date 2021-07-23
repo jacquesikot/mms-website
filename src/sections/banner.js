@@ -37,7 +37,7 @@ const Banner = () => {
                 <FaStar />
                 Trused by over 500 students
               </Box>
-              <Heading as="h3">
+              <Heading as="h3" sx={{ letterSpacing: 2 }}>
                 Summer 2021 with <br />
                 Mac Music School
               </Heading>

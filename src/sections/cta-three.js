@@ -117,6 +117,7 @@ const styles = {
         marginLeft: ['auto', null, null, null, '0'],
         marginRight: ['auto', null, null, null, '0'],
         whiteSpace: ['normal', null, null, null, 'pre-line'],
+        letterSpacing: 0,
       },
     },
     content: {
