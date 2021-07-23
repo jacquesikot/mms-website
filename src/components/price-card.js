@@ -46,7 +46,7 @@ export default function PriceCard({
             </Text>
           ) : null}
         </Flex>
-        <PricingList items={points} childStyle={styles.listItem} />
+        {/* <PricingList items={points} childStyle={styles.listItem} /> */}
         <Box
           sx={{
             textAlign: 'center',

@@ -2,8 +2,9 @@
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
 import LogoDark from 'assets/logo.svg';
+import LogoLight from 'assets/logo-light.svg';
 
-export default function Logo() {
+export default function Logo({ isWhite }) {
   return (
     <Link
       path="/"
@@ -14,7 +15,11 @@ export default function Logo() {
         cursor: 'pointer',
       }}
     >
-      <Image src={LogoDark} alt="startup landing logo" width={100} />
+      <Image
+        src={isWhite ? LogoLight : LogoDark}
+        alt="startup landing logo"
+        width={100}
+      />
     </Link>
   );
 }

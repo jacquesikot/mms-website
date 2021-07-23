@@ -5,7 +5,7 @@ import PopularCard from 'components/popular-card';
 
 const popularCourseData = [
   {
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing eli ',
+    title: 'Piano for Toddler and older stage 1, 2 and 3  ',
     reviewCount: '5.0 (392 reviews)',
     watchCount: '2,538 students watched',
     videoLink: 'L9jU-IIN0ng',
@@ -27,7 +27,7 @@ const popularCourseData = [
     ],
   },
   {
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing eli ',
+    title: 'Guitar Courses for Beginniers and Intermediate courses',
     reviewCount: '5.0 (392 reviews)',
     watchCount: '2,538 students watched',
     videoLink: 'L9jU-IIN0ng',
@@ -49,7 +49,7 @@ const popularCourseData = [
     ],
   },
   {
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing eli ',
+    title: 'Violin for Guerrilla and Advanced courses',
     reviewCount: '5.0 (392 reviews)',
     watchCount: '2,538 students watched',
     videoLink: 'L9jU-IIN0ng',

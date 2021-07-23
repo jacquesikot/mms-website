@@ -19,8 +19,8 @@ const workflowData = [
     text: 'At this stage, we employ the melody tutelage style, wherethe student learns with, popular tunes.',
   },
   {
-    title: 'Lorem ipsum dolor sit account',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi sapien.',
+    title: 'Creative Flow',
+    text: 'At this stage the students are expected to; haven passed all earlier 3 stages to be able to create their own music.',
   },
 ];
 

@@ -35,14 +35,14 @@ const PopularCard = (props) => {
             </Text>
           </Box>
           <Box sx={styles.popularCard.buttonBox}>
-            <Button
+            {/* <Button
               sx={styles.popularCard.courseBtn}
               onClick={handleClick}
               varient="buttons.primary"
             >
               7 Video Classes
               <Text as="span">4 hrs</Text>
-            </Button>
+            </Button> */}
             {status === true ? (
               <>
                 <FaAngleUp onClick={handleClick} width={16} />

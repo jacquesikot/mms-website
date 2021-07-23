@@ -28,10 +28,10 @@ export default {
     },
   },
   fonts: {
-    body: 'Mouse Memoirs', // DM Sans
+    body: 'Short Stack', // DM Sans
     // body:
     //   'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
-    heading: 'Fredoka One', // DM Sans
+    heading: 'Unkempt', // DM Sans
     // heading: 'Bree Serif',
     monospace: 'Menlo, monospace',
   },
