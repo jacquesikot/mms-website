@@ -2,7 +2,7 @@ import { Box, Text, Flex, Image, Container } from 'theme-ui';
 import React from 'react';
 import { Link, ExtLink } from 'components/link';
 import BlockTitle from 'components/block-title';
-import ctaTwoImage from 'assets/cta-img-1.png';
+import ctaTwoImage from 'assets/mms-banner-img.png';
 
 const CtaTwo = () => {
   return (
@@ -63,9 +63,9 @@ const styles = {
     },
     img: {
       maxWidth: 'none',
-      position: 'relative',
-      right: '220px',
-      bottom: '45px',
+      // position: 'relative',
+      // right: '100px',
+      // bottom: '45px',
       '@media(max-width:1024px)': {
         maxWidth: '100%',
         right: 'auto',
