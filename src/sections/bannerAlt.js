@@ -51,9 +51,9 @@ export default function BannerAlt({ bannerBg }) {
               Summer 2021 with Mac Music School.
             </Heading>
             <Text as="p" sx={styles.desc}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              mi sapien, Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. Praesent mi sapien.
+              MAC MUSIC SCHOOL. An environment designed to raise minstrels in
+              the creative and entertainment industry to subdue nations of the
+              world through music.
             </Text>
             <Box as="form" onSubmit={handleSubmit}>
               {/* <Select

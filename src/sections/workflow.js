@@ -20,7 +20,7 @@ const workflowData = [
   },
   {
     title: 'Creative Flow',
-    text: 'At this stage the students are expected to; haven passed all earlier 3 stages to be able to create their own music.',
+    text: 'At this stage, the students are expected to be able to create their own music as a result of understanding and completing the earlier stages.',
   },
 ];
 

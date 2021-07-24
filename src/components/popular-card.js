@@ -29,10 +29,7 @@ const PopularCard = (props) => {
                 label={props.title}
               />
             </Heading>
-            <Text as="p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              mi sapien Lorem ipsum dolor
-            </Text>
+            <Text as="p">{props.description}</Text>
           </Box>
           <Box sx={styles.popularCard.buttonBox}>
             {/* <Button

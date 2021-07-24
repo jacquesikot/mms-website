@@ -41,21 +41,23 @@ const CtaThree = () => {
             <Grid sx={styles.ctaThree.grid}>
               <Box sx={styles.ctaThree.box}>
                 <Image src={GuitarImage} width={100} height={100} />
-                <Text as="p">{'Candor \n Openness & Honesty'}</Text>
+                <Heading>Candor</Heading>
+                <Text as="p">Openess & Honesty</Text>
               </Box>
               <Box sx={styles.ctaThree.box}>
                 <Image src={PianoImage} width={100} height={100} />
-                <Text as="p">{'Reliable \n Trustworthy & Consistent'}</Text>
+                <Heading>Reliable</Heading>
+                <Text as="p">Trustworthy & Consistent</Text>
               </Box>
               <Box sx={styles.ctaThree.box}>
                 <Image src={ViolinImage} width={100} height={100} />
-                <Text as="p">
-                  {'Excellence & Service \n High quality and ministration'}
-                </Text>
+                <Heading>Excellence & Service</Heading>
+                <Text as="p">High quality and ministration</Text>
               </Box>
               <Box sx={styles.ctaThree.box}>
                 <Image src={SingingImage} width={100} height={100} />
-                <Text as="p">{'Tenacity \n Persistent and Determined'}</Text>
+                <Heading>Tenacity</Heading>
+                <Text as="p">Persistent and Determined</Text>
               </Box>
             </Grid>
           </Box>
@@ -69,8 +71,10 @@ export default CtaThree;
 
 const styles = {
   ctaThree: {
+    backgroundColor: '#FFF3D6',
     paddingTop: [0, null, null, null, 50, 120],
     paddingBottom: [120, null, null, null, 100, 220],
+    marginBottom: 100,
     row: {
       display: 'flex',
       flexWrap: 'wrap',
@@ -147,6 +151,7 @@ const styles = {
       },
     },
     box: {
+      backgroundColor: '#fff',
       boxShadow: '0px 25px 100px rgba(69, 88, 157, 0.08)',
       borderRadius: '10px',
       textAlign: 'center',

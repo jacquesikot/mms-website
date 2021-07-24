@@ -8,7 +8,6 @@ import Layout from 'components/layout';
 import Modal from 'components/modal';
 import BannerAlt from 'sections/bannerAlt';
 import CtaOne from 'sections/cta-one';
-import FAQ from 'sections/faq';
 import CtaTwo from 'sections/cta-two';
 import WorkFlow from 'sections/workflow';
 import Pricing from 'sections/pricing';
@@ -37,6 +36,7 @@ export default function IndexPage() {
               swipeable
               showStatus={false}
               interval={5000}
+              showThumbs={false}
             >
               <BannerAlt bannerBg={bg1} />
               <BannerAlt bannerBg={bg2} />

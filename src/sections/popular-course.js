@@ -6,6 +6,7 @@ import PopularCard from 'components/popular-card';
 const popularCourseData = [
   {
     title: 'Piano for Toddler and older stage 1, 2 and 3  ',
+    description: 'Ready to start your first piano lessons?',
     reviewCount: '5.0 (392 reviews)',
     watchCount: '2,538 students watched',
     videoLink: 'L9jU-IIN0ng',
@@ -13,21 +14,23 @@ const popularCourseData = [
     expanded: true,
     list: [
       {
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        content: 'Easy ways to learn the notes',
       },
       {
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        content: "It's all about the Fingers!",
       },
       {
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        content: "Hi, Let's meet the Note Family",
       },
       {
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        content: "Let's work on our Fingers(Finger Strengthening)",
       },
     ],
   },
   {
-    title: 'Guitar Courses for Beginniers and Intermediate courses',
+    title: 'Guitar Courses for Intermediate students',
+    description:
+      'A guitar is a six stringed instrument with frets, which are the horizontal bars across the fingerboard used to denote separate musical notes.',
     reviewCount: '5.0 (392 reviews)',
     watchCount: '2,538 students watched',
     videoLink: 'L9jU-IIN0ng',
@@ -35,21 +38,24 @@ const popularCourseData = [
     expanded: true,
     list: [
       {
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        content:
+          'Identify string names and numbers and read music notation, tablature,chord block diagrams, and fretboard maps',
       },
       {
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        content: 'Practice picking, finger picking, and strumming patterns',
       },
       {
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        content:
+          'Play various chords including major and minor triads,open, Barre and pose chords',
       },
       {
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        content: 'Read and play a lead sheet',
       },
     ],
   },
   {
     title: 'Violin for Guerrilla and Advanced courses',
+    description: '',
     reviewCount: '5.0 (392 reviews)',
     watchCount: '2,538 students watched',
     videoLink: 'L9jU-IIN0ng',
@@ -92,6 +98,7 @@ const PopularCourse = () => {
               reviewCount={course.reviewCount}
               watchCount={course.watchCount}
               videoLink={course.videoLink}
+              description={course.description}
             />
           </Box>
         ))}
