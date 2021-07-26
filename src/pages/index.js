@@ -38,8 +38,16 @@ export default function IndexPage() {
               interval={5000}
               showThumbs={false}
             >
-              <BannerAlt bannerBg={bg1} />
-              <BannerAlt bannerBg={bg2} />
+              <BannerAlt
+                bannerBg={bg1}
+                text="An environment designed to raise minstrels in the creative and
+              entertainment industry to subdue nations of the world through
+              music."
+              />
+              <BannerAlt
+                bannerBg={bg2}
+                text="MAC SCHOOL OF MUSIC is an organisation focused at raising minstrels through Excellence, Creativity and Dedication. MSM aims to reach every country in every continent of the world through music."
+              />
             </Carousel>
             <CtaTwo />
             <CtaThree />

@@ -29,7 +29,7 @@ const options = [
   },
 ];
 
-export default function BannerAlt({ bannerBg }) {
+export default function BannerAlt({ bannerBg, text }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('submitting...');
@@ -51,9 +51,7 @@ export default function BannerAlt({ bannerBg }) {
               Summer 2021 with Mac Music School.
             </Heading>
             <Text as="p" sx={styles.desc}>
-              MAC MUSIC SCHOOL. An environment designed to raise minstrels in
-              the creative and entertainment industry to subdue nations of the
-              world through music.
+              {text}
             </Text>
             <Box as="form" onSubmit={handleSubmit}>
               {/* <Select
