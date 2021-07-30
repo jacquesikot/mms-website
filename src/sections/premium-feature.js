@@ -9,29 +9,25 @@ import BlockTitle from 'components/block-title';
 
 const data = [
   {
-    title: 'Lorem ipsum dolor sit amet ?',
+    title: 'Are your courses available online?',
     contents: (
       <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi
-        sapien, Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Online courses are coming soon. You can sign up with us and once it is
+        available we will contact you.
       </div>
     ),
   },
   {
-    title: 'Lorem ipsum dolor sit amet ?',
-    contents: (
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi
-        sapien, Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </div>
-    ),
+    title: 'How much does the online courses cost?',
+    contents: <div>MAC's online music program prices vary by type.</div>,
   },
   {
-    title: 'Lorem ipsum dolor sit amet ?',
+    title: 'What are the requirements for students? ',
     contents: (
       <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi
-        sapien, Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        In addition to their instrument, students need a laptop computer,
+        desktop computer, tablet, or mobile phone with both audio and video
+        capabilities to participate in the online music lessons program.
       </div>
     ),
   },

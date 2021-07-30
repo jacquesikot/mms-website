@@ -2,7 +2,7 @@
 import { jsx, Container, Flex, Button, Box } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { IoIosUnlock } from 'react-icons/io';
-import { NavLink, Link, ExtLink } from 'components/link';
+import { ExtLink } from 'components/link';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import Logo from 'components/logo';
 

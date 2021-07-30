@@ -55,7 +55,8 @@ const popularCourseData = [
   },
   {
     title: 'Violin for Guerrilla and Advanced courses',
-    description: '',
+    description:
+      'Ideal posture for violinists that seeks to maximize freedom of movement, relaxation, and comfort, while also pursuing practical results with real violin playing.',
     reviewCount: '5.0 (392 reviews)',
     watchCount: '2,538 students watched',
     videoLink: 'L9jU-IIN0ng',
@@ -63,17 +64,17 @@ const popularCourseData = [
     expanded: true,
     list: [
       {
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        content: 'Course Introduction',
       },
       {
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        content: '“Urstudien,” by Carl Flesch',
       },
       {
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        content: 'Teaching and demonstration',
       },
-      {
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      },
+      // {
+      //   content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      // },
     ],
   },
 ];

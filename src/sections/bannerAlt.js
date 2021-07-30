@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx, Box, Container, Heading, Text, Button } from 'theme-ui';
 import { rgba } from 'polished';
+import { ExtLink } from 'components/link';
 
 import Select from 'components/select';
 // import bannerBg from 'assets/images/banner-bg.jpg';
@@ -29,10 +30,10 @@ const options = [
   },
 ];
 
-export default function BannerAlt({ bannerBg, text }) {
+export default function BannerAlt({ bannerBg, text, button }) {
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('submitting...');
+    // console.log('submitting...');
   };
 
   return (
@@ -47,9 +48,9 @@ export default function BannerAlt({ bannerBg, text }) {
       <Container>
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
-            <Heading as="h1" sx={styles.heroTitle}>
+            {/* <Heading as="h1" sx={styles.heroTitle}>
               Summer 2021 with Mac Music School.
-            </Heading>
+            </Heading> */}
             <Text as="p" sx={styles.desc}>
               {text}
             </Text>
@@ -67,9 +68,15 @@ export default function BannerAlt({ bannerBg, text }) {
                   </option>
                 ))}
               </Select> */}
-              {/* <Button type="submit" sx={styles.button} variant="primary">
-                Get Started
-              </Button> */}
+              {button && (
+                <ExtLink
+                  path="https://mms-admin.vercel.app/register"
+                  ml={2}
+                  label="Register Here"
+                  sx={styles.button}
+                  variant="buttons.primary"
+                />
+              )}
             </Box>
           </Box>
         </Box>

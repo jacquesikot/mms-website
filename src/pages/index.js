@@ -18,6 +18,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 import bg1 from '../assets/images/bg-1.jpg';
 import bg2 from '../assets/images/bg-2.jpg';
+import bg3 from '../assets/images/bg-3.jpg';
 
 export default function IndexPage() {
   return (
@@ -40,23 +41,25 @@ export default function IndexPage() {
             >
               <BannerAlt
                 bannerBg={bg1}
-                text="An environment designed to raise minstrels in the creative and
-              entertainment industry to subdue nations of the world through
-              music."
+                text="MAC SCHOOL OF MUSIC is an organisation focused at raising minstrels through Excellence, Creativity and Dedication."
               />
               <BannerAlt
                 bannerBg={bg2}
-                text="MAC SCHOOL OF MUSIC is an organisation focused at raising minstrels through Excellence, Creativity and Dedication. MSM aims to reach every country in every continent of the world through music."
+                text="MSM aims to reach every country in every continent of the world through music."
+              />
+              <BannerAlt
+                bannerBg={bg3}
+                text="Summer 2021 with MAC MUSIC SCHOOL"
+                button
               />
             </Carousel>
             <CtaTwo />
             <CtaThree />
             <PopularCourse />
             <WorkFlow />
-            <Pricing />
+            {/* <Pricing /> */}
             <PremiumFeature />
             <CtaOne />
-            <Modal />
           </Layout>
         </VideoProvider>
       </StickyProvider>
