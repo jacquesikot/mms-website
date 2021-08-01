@@ -20,6 +20,17 @@ import bg1 from '../assets/images/bg-1.jpg';
 import bg2 from '../assets/images/bg-2.jpg';
 import bg3 from '../assets/images/bg-3.jpg';
 
+import bg4 from '../assets/images/bn1.jpeg';
+import bg5 from '../assets/images/bn2.jpeg';
+import bg6 from '../assets/images/bn3.jpeg';
+import bg7 from '../assets/images/bn4.jpeg';
+import bg8 from '../assets/images/bn5.jpeg';
+import bg9 from '../assets/images/bn6.jpeg';
+import bg10 from '../assets/images/bn7.jpeg';
+import bg11 from '../assets/images/bn8.jpeg';
+import bg12 from '../assets/images/bn9.jpeg';
+import bg13 from '../assets/images/bn10.jpeg';
+
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
@@ -48,7 +59,52 @@ export default function IndexPage() {
                 text="MSM aims to reach every country in every continent of the world through music."
               />
               <BannerAlt
-                bannerBg={bg3}
+                bannerBg={bg4}
+                text="Summer 2021 with MAC MUSIC SCHOOL"
+                button
+              />
+              <BannerAlt
+                bannerBg={bg5}
+                text="Summer 2021 with MAC MUSIC SCHOOL"
+                button
+              />
+              <BannerAlt
+                bannerBg={bg6}
+                text="Summer 2021 with MAC MUSIC SCHOOL"
+                button
+              />
+              <BannerAlt
+                bannerBg={bg7}
+                text="Summer 2021 with MAC MUSIC SCHOOL"
+                button
+              />
+              <BannerAlt
+                bannerBg={bg8}
+                text="Summer 2021 with MAC MUSIC SCHOOL"
+                button
+              />
+              <BannerAlt
+                bannerBg={bg9}
+                text="Summer 2021 with MAC MUSIC SCHOOL"
+                button
+              />
+              <BannerAlt
+                bannerBg={bg10}
+                text="Summer 2021 with MAC MUSIC SCHOOL"
+                button
+              />
+              <BannerAlt
+                bannerBg={bg11}
+                text="Summer 2021 with MAC MUSIC SCHOOL"
+                button
+              />
+              <BannerAlt
+                bannerBg={bg12}
+                text="Summer 2021 with MAC MUSIC SCHOOL"
+                button
+              />
+              <BannerAlt
+                bannerBg={bg13}
                 text="Summer 2021 with MAC MUSIC SCHOOL"
                 button
               />

@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://startup-online-course.vercel.app',
+  siteUrl: 'https://macmusicschool.com',
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {

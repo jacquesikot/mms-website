@@ -35,8 +35,8 @@ export default function Footer() {
               &copy; Copyright by {new Date().getFullYear()} Mac Music School
             </Text>
           </Flex>
-          <Flex as="ul" sx={styles.footerNav}>
-            {menuItems?.map((item, index) => (
+          <Flex as="ul" sx={styles.copyright}>
+            {/* {menuItems?.map((item, index) => (
               <li key={index}>
                 <ScrollLink
                   activeClass="active"
@@ -51,7 +51,12 @@ export default function Footer() {
                   {item.label}
                 </ScrollLink>
               </li>
-            ))}
+            ))} */}
+
+            <Text as="span">
+              For more details, contact us at JJ's Kiddies City Creche and
+              Pre-school, Garba Ali Close, Guzape. 08095190656
+            </Text>
           </Flex>
         </Flex>
       </Container>
@@ -106,6 +111,13 @@ const styles = {
     listStyle: 'none',
     // flexDirection: ['column', null, null, null, 'row'],
     m: ['25px 0 0', null, null, null, 0],
+    span: {
+      color: rgba('white', 0.7),
+      fontSize: 1,
+      lineHeight: '18px',
+      ml: [null, null, null, null, 3],
+      mt: [3, null, null, null, 0],
+    },
     p: 0,
     li: {
       '+ li': {
